@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>37.0</apiVersion>
+    <availableInTouch>true</availableInTouch>
+    <confirmationTokenRequired>false</confirmationTokenRequired>
+    <description>Lead Capture for Sales Cloud allows brands running demand generation campaigns on Facebook using Lead Ads to automate lead form submissions directly into Sales Cloud and map them to Lead Objects.</description>
+    <label>Lead Capture</label>
+</ApexPage>

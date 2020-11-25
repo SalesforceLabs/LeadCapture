@@ -1,0 +1,18 @@
+<apex:page sidebar="false" controller="SalesforceLeadCaptureController" >
+    <style type="text/css">
+         .brandQuaternaryBgr {
+             padding: 0px !important;
+         }
+         
+         .fullPage iframe {
+             width: 100%;
+             height: 100%;
+             min-height: 600px;
+             padding: 0;
+             margin: 0;
+         }
+     </style>
+    <div class="fullPage">
+        <apex:iframe height="100%" width="100%" src="https://leadcollector.social.com/_command/salescloud/login?orgId={!URLENCODE($Organization.Id)}&orgName={!URLENCODE($Organization.Name)}&isSandbox={!isSandbox}&userId={!URLENCODE($User.Id)}&username={!URLENCODE($User.Username)}&entrepriseServerUrl={!URLENCODE($Api.Enterprise_Server_URL_370)}" scrolling="true" />
+    </div>
+</apex:page>

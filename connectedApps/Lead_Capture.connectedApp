@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>melgueddari@salesforce.com</contactEmail>
+    <description>Lead Capture for Sales Cloud allows brands running demand generation campaigns on Facebook using Lead Ads to automate lead form submissions directly into Sales Cloud and map them to Lead Objects.</description>
+    <developerName>leadcap__Lead_Capture</developerName>
+    <hasMobileDeviceProtection>false</hasMobileDeviceProtection>
+    <label>Salesforce Lead Capture</label>
+    <oauthConfig>
+        <callbackUrl>https://leadcollector.social.com/_command/salescloud/callback</callbackUrl>
+        <certificate>MIIEuDCCAqCgAwIBAgIQH+34YRG7EIFEvu2VoBQpQjANBgkqhkiG9w0BAQUFADAXMRUwEwYDVQQDEwxMZWFkIENhcHR1cmUwIBcNMTYwOTA2MDAwMDAwWhgPMjExNjA5MDcwMDAwMDBaMBcxFTATBgNVBAMTDExlYWQgQ2FwdHVyZTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAM6e2pTK4JEz+Vgzu68lXAOl1H8wm497ij1DUY6/qZ9Ymy6oJvLmH0OUBSOD+1+bA0YGCNelFPtoTrO1Nrtss/7C1xdr0nRceXHP0ds1ioogsCBhgTzHWUvpO6VILbIon/q7Yoe84W77OL7OjeFU8inuYBz9P771eUJv0RG0DckjorFMa20FY39uIfkN2ujY0EVJS7O4ChvCGQdUGUg7qXRuX0FdnzN2Wb442bKsbXadrMtzRjE8fprFMuLdIMb8f7CmfVOlq4Em6pL+NZpr72POyebVoO48CSlQKDxDJv8IG68Cu/H8RXqdSubCWaBR4L3j1HXi6G/oegYgN0FL4hRfFwkH9bCqRN2XItBvham0MV9nkS2Z2mlwZzDf0LOQHyxeAvdXaLu2IirvtiP3/iAifjCOflGKo0AUZTVvkAC8iv3AlUvQbBlYoWz96qTg6UUz95zZ0Qx7nsA57ZFnN5l5NajrNdz8+Sb9PmsftDdan0YXdXor3rU/trA4qp3Ln/xd3NXHl8fw6+1qLyUvRUymI2Ed7ag+uR+1pdP/hGxjCq/V7j/MmOqy0cuKZQ+1jzu+2kkU4Na2C5GhRUuIs+nolezQYccu1+Y0Q8PIhWiyozbWUstg00YPVjvTMd2rsORs5t1BsRS5z8XGnSavZPcrtv58tOBvirQOHVdZmFcpAgMBAAEwDQYJKoZIhvcNAQEFBQADggIBAG/5MnBIVy5iJXDkkA4U4zv+zZwoBirNaEu9beH5jSdEBsxumBw30LkB/NbYcyPnY6Yrtu9WjJmNdiI3nZ5o5vR++I2AGFHRNDQzpAgF48+vBlCl3DcJvbj3ic0wxcF9yshS40qFyiq/9KdJYPaLvLVJqRd+ab8d8dwkTEX80/++vffkGWwH8S3uzcw5W7af69o8GzUECzZeZUlAq+aTdbA/dKLUM4CwJCQxue8TFIkoWDz2LTScAyaV9UuWHBcDVyupQJi/dfTBsNp+dHN7TlehJ2w7KTZG/1DYlRYbTpSYT/LO6rV8i/kdYmPi+W8/hOhb1q1sNlO/ncJc/ymATXXGjV4uvBr+GZ9DDNxHVr9ay4+Qf9yuA9MGaaZMi3/bC1QAX8r04wlaa7HglclVmPVWLrVxZP5BzQAD4s+OR3cS5H2UmL5XODW8uRF+sFDhR5Q4lYUu+PjI/HUJmf0iVl/Bl53SlhRX8TuIkwouTwiOlh4fE+vOGWnQSqQVBLKLu/43IjJRNPi5TRDydHceKK6/qPXRb8iptFJUYCWg5yLD9AoLTUDns3aiA7vClkm8qGgWJX2kTaghNzS2ikCitoNLcKi7SkeuG/onIYW1gAs1+p3wq0Uk59WT7GWywWbVWIEMR2b0usevhN5Xx0rrSUYISCRwpK5X1ijSszE826is</certificate>
+        <consumerKey>3MVG9HxRZv05HarQdfoY3wWzCjWgU_igvafx13gacLEeTjOtoI8T4iVq.nSouspUi_YykPb_2zDx3z_dTp_Iy</consumerKey>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>RefreshToken</scopes>
+        <scopes>OpenID</scopes>
+    </oauthConfig>
+    <version>18.0</version>
+</ConnectedApp>

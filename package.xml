@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead Capture</fullName>
+    <apiAccessLevel>Unrestricted</apiAccessLevel>
+    <description>Lead Capture for Sales Cloud allows brands running demand generation campaigns on Facebook using Lead Ads to automate lead form submissions directly into Sales Cloud and map them to Lead Objects.</description>
+    <namespacePrefix>leadcap</namespacePrefix>
+    <orgFeaturePayloads>
+        <dependencyDetectionType>M</dependencyDetectionType>
+        <feature>Campaign</feature>
+    </orgFeaturePayloads>
+    <postInstallClass>LeadCapturePostInstallClass</postInstallClass>
+    <postInstallLink>https://partners.salesforce.com/servlet/servlet.FileDownload?file=00P3A00000VibdZUAR</postInstallLink>
+    <types>
+        <members>LeadCapturePostInstallClass</members>
+        <members>LeadCapturePostInstallClassTest</members>
+        <members>SalesforceLeadCaptureController</members>
+        <members>SalesforceLeadCaptureControllerTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Lead_Capture</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>Lead_Capture</members>
+        <name>ConnectedApp</name>
+    </types>
+    <types>
+        <members>Lead.Facebook_Lead_ID__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Lead_Capture</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <name>Profile</name>
+    </types>
+    <version>38.0</version>
+</Package>
